@@ -1,0 +1,238 @@
+body {
+    background-color: #b5dae5;
+    margin: 0;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+   	font-family: 'Roboto', sans-serif;
+   	font-size: 20px;
+
+}
+
+h2 {
+
+    color: white;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+blockquote{
+    color: white;
+    text-align: center;
+   	font-family: 'Roboto', sans-serif;
+   	font-size: 20px;
+}
+
+/*nav{
+
+
+
+
+
+}*/
+
+
+img{
+
+    position: static;
+
+
+}
+
+.row2{
+  width: 100%;
+  text-align: -webkit-right;
+}
+
+.banner{
+/*
+    position: relative;
+    left: 0;*/
+    width: 75%;
+    background-color: #3d7d8f;
+    /*padding: 250px;*/
+    /*margin-bottom: 30px;
+    margin-top: 30px;*/
+    text-align: left;
+}
+.row3{
+
+    position: relative;
+    background-color: #3d7d8f;
+    background-image: url("img/heartWelcome.png");
+    background-size: cover;
+    background-position: left center;
+
+    /*padding: 350px;*/
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+
+.welcome{
+
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    width: 40%;
+}
+
+.welcome blockquote{
+  text-align: left;
+}
+
+/*MOTTO*/
+.row4{
+
+
+    position: static;
+    display: block;
+    background-color: #3d7d8f;
+    padding: 250px;
+    margin-left: 30px;
+    width: 35%;
+
+
+}
+.row4 h1{
+    position: relative;
+    float: right;
+    padding: auto;
+    margin: auto;
+}
+/*END OF MOTTO*/
+
+/*FOOTER*/
+.footer{
+
+    position: static;
+    display: block;
+	background-color: #3d7d8f;
+	padding: 100px;
+	margin-top: 30px;
+}
+.footerlogo{
+    width: 500px;
+    margin: 10px;
+    display: inline-block;
+
+}
+.footerlinkparent{
+    /*position: relative;
+
+    float: right;
+    width: 50%;*/
+        display: inline-block;
+}
+.linkfooter ul{
+    position: relative;
+    left: 30px;
+    right: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.linkfooter li{
+    position: static;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+}
+a.footernav:link, a.footernav:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.footernav:hover {
+    background-color: #698f9a;
+}
+a.footernav:active{
+    background-color: #4CAF50;
+    color: white;
+}
+.footerdetail{
+
+    /*position: static;
+    margin: 10px;
+    padding: 10px;
+    float: left;*/
+
+    width: 100%;
+}
+.footerdetail p {
+
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+/*END OF FOOTER*/
+
+
+
+
+
+
+
+/*TOP NAVIGATION*/
+.login{
+
+    position: relative;
+    float: right;
+    right: 10px;
+    margin: auto;
+    padding: auto;
+
+
+}
+.textnav a{
+
+    position: static;
+	margin: 10px;
+	padding: 20px;
+    font-family:
+
+
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    position: static;
+    background-color: #b5dae5;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    position: static;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #698f9a;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
