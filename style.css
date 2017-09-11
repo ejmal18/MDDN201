@@ -38,10 +38,12 @@ blockquote{
 }*/
 
 
+
 img{
 
     position: static;
-
+    width: 100%;
+    height: auto;
 
 }
 
@@ -70,7 +72,7 @@ img{
     background-position: left center;
 
     /*padding: 350px;*/
-    padding-bottom: 100px;
+    padding-bottom: 300px;
     margin-bottom: 30px;
     margin-top: 30px;
 
@@ -119,6 +121,13 @@ img{
 	padding: 100px;
 	margin-top: 30px;
 }
+
+/* footer fixes*/
+
+.footerWrapper{
+    width:100%;
+
+}
 .footerlogo{
     width: 500px;
     margin: 10px;
@@ -128,9 +137,9 @@ img{
 .footerlinkparent{
     /*position: relative;
 
-    float: right;
-    width: 50%;*/
-        display: inline-block;
+    float: right;/*/
+    width: 50%;
+    display: inline-block;
 }
 .linkfooter ul{
     position: relative;
