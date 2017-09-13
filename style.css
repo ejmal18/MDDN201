@@ -2,9 +2,6 @@ body {
     background-color: #b5dae5;
     margin: 0;
 }
-
-
-
 h1 {
     color: white;
     text-align: center;
@@ -28,17 +25,6 @@ blockquote{
    	font-family: 'Roboto', sans-serif;
    	font-size: 20px;
 }
-
-/*nav{
-
-
-
-
-
-}*/
-
-
-
 img{
 
     position: static;
@@ -47,6 +33,18 @@ img{
 
 }
 
+
+.aboutUs{    
+    background-color: #3d7d8f;
+    padding: 250px;
+}
+
+.aboutUs blockquote{
+    display: block;
+    text-align: left;
+}
+
+/*BANNER*/
 .row2{
   width: 100%;
   text-align: -webkit-right;
@@ -62,7 +60,20 @@ img{
     /*margin-bottom: 30px;
     margin-top: 30px;*/
     text-align: left;
+    display: inline-block;
+
 }
+.banner img{
+
+    width: 50%;
+    padding: 10px;
+    display: inline-block;
+
+}
+/*END OF BANNER*/
+
+
+/*WELCOME*/
 .row3{
 
     position: relative;
@@ -90,6 +101,8 @@ img{
 .welcome blockquote{
   text-align: left;
 }
+/*END OF WELCOME*/
+
 
 /*MOTTO*/
 .row4{
@@ -118,7 +131,7 @@ img{
     position: static;
     display: block;
 	background-color: #3d7d8f;
-	padding: 100px;
+	padding-bottom: 10px;
 	margin-top: 30px;
 }
 
@@ -143,16 +156,14 @@ img{
 }
 .linkfooter ul{
     position: relative;
-    left: 30px;
-    right: 10px;
-    margin: 10px;
-    padding: 10px;
+    display: inline-block;
+    float: right;
+
 }
 .linkfooter li{
     position: static;
     display: block;
     color: #f2f2f2;
-    padding: 14px 16px;
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
     font-size: 17px;
@@ -168,7 +179,7 @@ a.footernav:hover {
     background-color: #698f9a;
 }
 a.footernav:active{
-    background-color: #4CAF50;
+    background-color: #b5dae5;
     color: white;
 }
 .footerdetail{
