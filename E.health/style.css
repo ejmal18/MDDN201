@@ -1,0 +1,774 @@
+body {
+    background-color: #91b4be;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: white;
+    text-align: center;
+   	font-family: 'Roboto', sans-serif;
+   	font-size: 20px;
+
+}
+
+h2 {
+
+    color: white;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+
+}
+h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+
+blockquote{
+    color: white;
+    text-align: center;
+   	font-family: 'Roboto', sans-serif;
+   	font-size: 20px;
+}
+img{
+
+    position: static;
+    width: 100%;
+    height: auto;
+
+}
+
+/*Login/Register Page*/
+.title{
+    text-align: center;
+    padding: 0px 0 20px;
+}
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+.container{
+    width: 50%;
+    height: 400px;
+    background: #3d7d8f;
+    margin: 0 auto;
+    border: 2px solid #3d7d8f;
+    box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+.container .left{
+    float: left;
+    width: 50%;
+    height: 400px;
+}
+.container .right{
+    float: right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+}
+.formBox{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+}
+.formBox p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.formBox input{
+
+    margin-bottom: 30px;
+    background-color: #3d7d8f;
+
+}
+.formBox a{
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+.formBox input[type="text"],
+.formBox input[type="Password"]{
+    border: none;
+    border-bottom: 5px solid #91b4be;
+    outline: none;
+    height: 40px;
+}
+.formBox input[type="text"]:focus,
+.formBox input[type="Password"]:focus{
+    border-bottom: 5px solid #4f6b74;
+}
+.forminputs input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    background: #91b4be;
+    cursor: pointer;
+}
+.forminputs input[type="submit"]:hover{
+    background: #4f6b74;
+}
+/*.forminputs input[type="text"],
+.forminputs input[type="Password"]{
+    color: #fff;
+}*/
+.forminputs{
+    width:100%;
+    color: #bdbdbd;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #bdbdbd;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #bdbdbd;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #bdbdbd;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #bdbdbd;
+}
+
+/*Register Box*/
+.registerbox{
+    padding: 40px 20px;
+    box-sizing: border-box;
+    height: 400px;
+}
+.registerbox p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+.registerbox input{
+
+    margin-bottom: 30px;
+    background-color: #3d7d8f;
+
+}
+.registerbox a{
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+.registerbox input[type="text"],
+.registerbox input[type="Password"]{
+    border: none;
+    border-bottom: 5px solid #91b4be;
+    outline: none;
+    height: 20px;
+    width: 70%;
+}
+.registerbox input[type="text"]:focus,
+.registerbox input[type="Password"]:focus{
+    border-bottom: 5px solid #4f6b74;
+}
+.registerinputs input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    background: #91b4be;
+    cursor: pointer;
+}
+.registerinputs input[type="submit"]:hover{
+    background: #4f6b74;
+}
+/*.forminputs input[type="text"],
+.forminputs input[type="Password"]{
+    color: #fff;
+}*/
+.registerbox{
+    width: 95%;
+    color: #bdbdbd;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #bdbdbd;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #bdbdbd;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #bdbdbd;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #bdbdbd;
+}
+?/*.columnseperator{
+
+    width: 0.5px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #91b4be;
+}*/
+
+/*End of login/register page*/
+.main{
+    height: calc(100vh - 280px)!important;
+}
+
+
+
+
+
+
+
+
+/*HUB page*/
+.hubcontainer{
+    width: 100%;
+    height: 500px;
+    background: #91b4be;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 65px;
+
+}
+
+.communitybar{
+    float: left;
+    height: 640px;
+    margin: 0px;
+    width: 25%;
+    background-color: #3d7d8f;
+
+}
+
+.communitycontainer{
+    position: relative;
+    width: 96%;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    height: 550px;
+}
+.communitycontainer a{
+    position: relative;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+}
+.healthanalysis{
+    padding: 5px;
+    margin-bottom: 30px;
+    background-color: #91b4be;
+}
+.healthanalysis a:hover {
+    background-color: #3d7d8f;
+    color: white;
+}
+.healthanalysis a:active {
+    background-color: #3d7d8f;
+    color: white;
+}
+.chatrooms a:hover {
+    background-color: #91b4be;
+    color: white;
+}
+.chatrooms a:active {
+    background-color: #91b4be;
+    color: white;
+}
+.healthdata{
+    padding: 5px;
+    margin-bottom: 30px;
+    background-color: #91b4be;
+}
+.healthdata a:hover {
+    background-color: #3d7d8f;
+    color: white;
+}
+.healthdata a:active {
+    background-color: #3d7d8f;
+    color: white;
+}
+.comprofile a:hover {
+    background-color: #91b4be;
+    color: white;
+}
+.comprofile a:active {
+    background-color: #91b4be;
+    color: white;
+}
+.iso-nav{
+  text-align: left;
+  display: inline-block;
+}
+.iso-nav ul li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  padding: 10px 15px;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all .5s ease;
+  -mos-transition: all .5 ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+
+}
+.iso-nav ul li:hover{
+  background:#91b4be;
+  color: #fff;
+
+}
+/** listing page **/
+.listing-page{
+  height: auto;
+}
+.listing{
+  width: 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.listingTitle{
+  float:left;
+  display: block;
+  width: 565px;
+  height: 40px;
+  background-color: #91b4be;
+  color: #fff;
+  font-size:18px;
+  font-family: 'PT Sans', sans-serif;
+  margin: 20ox;
+  /*padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;*/
+}
+.listingContent{
+  width: 320px;
+  float: left;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 40px;
+}
+
+/** listings page ends **/
+
+/*.main-iso{
+  width: 100%;
+}
+.main-iso .newsboxes{
+  width: 320px;
+  float: left;
+  display: inline-block;
+  margin: 15px;
+  margin-left: 40px;
+}
+.active{
+  background: #91b4be;
+  color: #fff;
+}*/
+.newboxestitle{
+  display: block;
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.newsbar{
+    float: right;
+    height: 840px;
+    width: 70%;
+    background-color: #3d7d8f;
+}
+
+.newsarticles{
+  display: inline-block;
+  width: 100%;
+  height: 840px;
+/*  -webkit-column-count: 3;
+  -webkit-column-gap: 20px;*/
+
+}
+
+.newsarticles img{
+    width: 300px;
+    height: 165px;
+    border: 5px solid white;
+    float:left;
+    margin-right: 60px;
+    margin-bottom: 150px;
+}
+/*End of hub page*/
+
+
+
+
+
+
+
+
+
+
+
+.aboutUs{
+    background-color: #3d7d8f;
+    padding: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+}
+
+.aboutUs blockquote{
+    display: block;
+    text-align: left;
+}
+
+/*BANNER*/
+.row2{
+  width: 100%;
+  text-align: right;
+
+}
+
+.banner{
+/*
+    position: relative;
+    left: 0;*/
+    width: 75%;
+    background-color: #3d7d8f;
+    /*padding: 250px;*/
+    /*margin-bottom: 30px;
+    margin-top: 30px;*/
+    text-align: left;
+    display: inline-block;
+    overflow: hidden;
+
+}
+.banner img{
+
+    width: 50%;
+    padding: 10px;
+    display: inline-block;
+
+}
+.slogan{
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-align: right;
+    background-color: #91b4be;
+    float: left;
+}
+.banner-row4{
+/*
+    position: relative;
+    left: 0;*/
+    width: 75%;
+    background-color: #3d7d8f;
+    /*padding: 250px;*/
+    /*margin-bottom: 30px;
+    margin-top: 30px;*/
+    text-align: left;
+    display: inline-block;
+    overflow: hidden;
+
+}
+.banner-row4 img{
+
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+
+}
+/*END OF BANNER*/
+
+
+/*WELCOME*/
+.row3{
+
+    position: relative;
+    background-color: #3d7d8f;
+    background-image: url("https://localhost/wp-content/uploads/2017/10/heartWelcome.png");
+    background-size: 400px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    /*padding: 350px;*/
+    padding-bottom: 250px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+
+.welcome{
+
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    width: 40%;
+}
+
+.welcome blockquote{
+  text-align: left;
+}
+/*END OF WELCOME*/
+
+
+/*MOTTO*/
+.row4{
+
+    float:left;
+    position: relative;
+    display: block;
+    background-color: #3d7d8f;
+    width: 48%;
+
+}
+.row4height{
+    height:250px;
+    padding-right: 20px;
+    background-color: #91b4be;
+}
+.row4 h1{
+    position: relative;
+    float: right;
+
+}
+.row4slogan{
+    float: right;
+    position: relative;
+    display: block;
+    background-color: #3d7d8f;
+    margin: 10px;
+    width: 50%;
+}
+
+/*END OF MOTTO*/
+
+/*FOOTER*/
+.footer{
+
+    float:left;
+    display: block;
+	  background-color: #3d7d8f;
+	  padding-bottom: 10px;
+	  margin-top: 50px;
+    width:100%;
+}
+
+/* footer fixes*/
+
+.footerWrapper{
+    width:100%;
+
+
+}
+.footerlogo{
+    width: 350px;
+    margin: 10px;
+    display: inline-block;
+
+}
+.footerlinkparent{
+    /*position: relative;
+
+    float: right;/*/
+    width: 70%;
+    display: inline-block;
+}
+.linkfooter{
+    display: block;
+    float: right;
+}
+.linkfooter ul{
+    position: relative;
+    display: inline-block;
+
+}
+.linkfooter li{
+    position: static;
+    display: block;
+    color: #f2f2f2;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+}
+a.footernav:link, a.footernav:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a.footernav:hover {
+    background-color: #698f9a;
+}
+a.footernav:active{
+    background-color: #698f9a;
+    color: white;
+}
+.footerdetail{
+
+    /*position: static;
+    margin: 10px;
+    padding: 10px;
+    float: left;*/
+
+    width: 100%;
+}
+.footerdetail p {
+
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+/*END OF FOOTER*/
+
+
+
+
+
+
+
+/*NAVIGATION MENUS*/
+.site-nav ul{
+  margin: 0;
+  padding: 0;
+}
+.site-nav ul:before, .site-nav ul:after{ content:""; display:table; }
+.site-nav ul:after { clear:both; }
+.site-nav ul{ *zoom: 1; }
+
+.site-nav ul li{
+  list-style: none;
+  float: left;
+}
+/*SITE_HEADER MENU*/
+.textnav nav ul li a:link,
+.textnav nav ul li a:visited{
+  display: block;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #91b4be;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.textnav nav ul li a:hover{
+  background-color: #3d7d8f;
+  -webkit-transition: all .5s ease;
+  -mos-transition: all .5 ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+
+}
+.textnav nav ul li.current-menu-item a:link,
+.textnav nav ul li.current-menu-item a:visited{
+  background-color: #3d7d8f;
+  color: #fff;
+}
+
+
+
+
+/*.login{
+    position: relative;
+    float: right;
+    right: 50px;
+    margin: auto;
+    padding: auto;
+}
+.login a{
+
+    position:s relative;
+    margin: 10px;
+    padding: 10px;
+
+
+}
+.textnav{
+    display: inline-block;
+}
+.textnav a{
+    position: relative;
+    margin: 10px;
+	padding: 10px;
+
+}
+/* Add a background color to the top navigation */
+/*.topnav {
+    position: relative;
+    background-color: #91b4be;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+/*.topnav a {
+    position: relative;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+/*.topnav a:hover {
+    background-color: #3d7d8f;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+/*.topnav a:active {
+    background-color: #3d7d8f;
+    color: white;
+}
+
+
+.homebtnfix a:hover{
+    text-decoration: none;
+    background-color: #91b4be;
+
+}
+.homebtnfix a:active{
+    background-color: #91b4be;
+    color: white;
+}*/
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+ }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+ }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 480px) {
+
+
+ }
